@@ -27,18 +27,14 @@ import sys
 import time
 import os
 
-token = "1740512324:AAEoYe4DGFPPg_cEc69cBbR5gr0opTUNWGM"
-my_chat_id = "413496441"
-terminal = "inactive"
+token = "TOKEN"
+my_chat_id = "USER_ID"
 mac_magic_packet = "00:D8:61:BF:60:02"
 ip_pc_ping = "192.168.1.10"
 
-app = TeleBot(__name__)
+terminal = "inactive"
 
-#def kick_chat_member(self, chat_id: Union[str, int],
-#					user_id: int,
-#					until_date: Optional[datetime.datetime] = None,
-#					timeout: int = 20):
+app = TeleBot(__name__)
 
 @app.route('/start')
 def start(message):

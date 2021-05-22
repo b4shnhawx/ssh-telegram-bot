@@ -27,8 +27,8 @@ import sys
 import time
 import os
 
-token = "1740512324:AAEoYe4DGFPPg_cEc69cBbR5gr0opTUNWGM"
-my_chat_id = 413496441
+token = "TOKEN"
+my_chat_id = ID
 terminal = "inactive"
 mac_magic_packet = "00:D8:61:BF:60:02"
 ip_pc_ping = "192.168.1.10"

@@ -6,5 +6,5 @@ Personally, I don't think that this bot can completely replace SSH (or any other
 
 Keep in mind that Telegram bots are public on the internet and any user searching for your bot's name will be able to start it. Since this is a HUGE security issue, I have configured the bot to compare your user ID with the sender's at all times. If the ID matches it means that you are the one trying to execute commands and it will go ahead, but if the ID doesn't match it means that someone other than you is trying to access and execute commands. In this second case the bot will ignore the command, send a message to the impostor and warn you that someone has tried to execute commands, along with the user information.
 
-## Enable "Telegram SSH"
+### Enable "Telegram SSH"
 ![Command example](https://github.com/b4shnhawx/ssh-telegram-bot/blob/main/images/command.jpg)

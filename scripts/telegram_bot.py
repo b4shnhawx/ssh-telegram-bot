@@ -36,8 +36,8 @@ app = TeleBot(__name__)
 
 ### --- VARIABLES ---
 
-token = "1740512324:AAEoYe4DGFPPg_cEc69cBbR5gr0opTUNWGM"
-my_chat_id = "413496441"
+token = "BOT_TOKEN"
+my_chat_id = "CHAT_ID"
 terminal = "inactive"
 
 ### --- FUNCTIONS ---

@@ -8,3 +8,6 @@ Keep in mind that Telegram bots are public on the internet and any user searchin
 
 ### - Enable "Telegram SSH"
 ![Command example](https://github.com/b4shnhawx/ssh-telegram-bot/blob/main/images/command.jpg)
+
+### - Intrusion example
+![Intrusion example](https://github.com/b4shnhawx/ssh-telegram-bot/blob/main/images/img_intrusion.jpg)

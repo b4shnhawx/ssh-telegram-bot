@@ -49,8 +49,8 @@ def info_anon_user(my_chat_id, message):
 	try:
 		app.send_message(my_chat_id, "Name: {} \nUsername: {} \nChat ID: {} \nLanguage: {} \nText: {}".format(message['from']['first_name'], message['from']['username'], message['from']['id'], message['from']['language_code'], message['text']))
 	except:
-		app.send_message(my_chat_id, "Name: {} {} \nChat ID: {} \nLanguage: {} \nText: {}".format(message['from']['first_name'], message['from']['last_name'], message['from']['id'], message['from']['language_code'], message['text']))
-      
+		#app.send_message(my_chat_id, "Name: {} {} \nChat ID: {} \nLanguage: {} \nText: {}".format(message['from']['first_name'], message['from']['last_name'], message['from']['id'], message['from']['language_code'], message['text']))
+		app.send_message(my_chat_id, "Name: {} {} \nChat ID: {} \nText: {}".format(message['from']['first_name'], message['from']['last_name'], message['from']['id'], message['text']))
 ###  START
 
 @app.route('/start')

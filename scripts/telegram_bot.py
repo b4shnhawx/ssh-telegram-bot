@@ -185,8 +185,8 @@ def terminal_mode(message):
 
 mac_magic_packet = "00:D8:61:BF:60:02"
 ip_pc = "192.168.1.10"
-user = "NAS"
-password = "WS-dah4909"
+user = "USER"
+password = "PASSWORD"
 
 ### --- FUNCTIONS ---
 

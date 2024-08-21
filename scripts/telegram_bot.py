@@ -28,20 +28,19 @@ import time
 import os
 import paramiko
 
-ssh = paramiko.SSHClient()
-ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
-
-app = TeleBot(__name__)
-
 ### -----------------------------------------------
-### -------- Minimal functions for SSH bot --------
+### --------- MANDATORY CODE FOR SSH BOT ----------
 ### -----------------------------------------------
 
 ### --- VARIABLES ---
+ssh = paramiko.SSHClient() #Do not modify
+ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy()) #Do not modify
+
+app = TeleBot(__name__) #Do not modify
 
 token = "xxxxxxxxx:ABCDEFabcdef..."
 permit_chat_id = (CHAT_ID_1, CHAT_ID_2, CHAT_ID_3...)
-terminal = "inactive"
+terminal = "inactive" #Do not modify
 
 ### --- FUNCTIONS ---
 
@@ -178,13 +177,13 @@ def terminal_mode(message):
 
 
 ### ------------------------------------------------
-### -------- Optional functions for the bot --------
+### -------- OPTIONAL FUNCTIONS FOR THE BOT --------
 ### ------------------------------------------------
 
 ### --- VARIABLES ---
 
-mac_magic_packet = "00:D8:61:BF:60:02"
-ip_pc = "192.168.1.10"
+mac_magic_packet = "MAC_ADDRESS"
+ip_pc = "IP_ADDRESS"
 user = "USER"
 password = "PASSWORD"
 
@@ -364,7 +363,9 @@ def cmd(message, cmd):
 #	else:
 #		app.send_message(chat_id, "Que no tienes permisos >:(")
 
-### --------------------- MAIN ---------------------
+### ------------------------------------------------
+### ------------------- MAIN -----------------------
+### ------------------------------------------------
 while True:
 	if __name__ == '__main__':
 		try:
